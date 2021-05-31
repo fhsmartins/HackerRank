@@ -9,23 +9,25 @@ class Solution {
         string s = "HackerRank ";
 
         // Declare second integer, double, and String variables.
-        int ii;
-        double dd;
-        string ss = "is the best place to learn and practice coding!";
+        int j;
+        double e;
+        string NewString;
+        
+        j = Convert.ToInt32(Console.ReadLine());
+        e = Convert.ToDouble(Console.ReadLine());
+        NewString = Console.ReadLine();
         
         // Read and save an integer, double, and String to your variables.
-        ii = int.Parse(Console.ReadLine());
-        dd = double.Parse(Console.ReadLine());
+        Console.WriteLine(j + i);
+        Console.WriteLine("{0:F1}", d + e);
+        Console.WriteLine(s + NewString); 
        
-        // Print the sum of both integer variables on a new line.
-        Console.WriteLine(i+ii);
+        // Print the sum of both integer variables on a new line. 
         
         // Print the sum of the double variables on a new line.
-        Console.WriteLine(d+dd);
         
         // Concatenate and print the String variables on a new line
-        var sss = String.Concat(s,ss);
-        Console.WriteLine(sss);
+        
         // The 's' variable above should be printed first.
 
     }
